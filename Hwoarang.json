@@ -1,0 +1,1963 @@
+{
+    "Name": "Hwoarang",
+    "FrameData": [
+        {
+            "attacksName": "Standing",
+            "attacks": [
+                {
+                    "Command": "1",
+                    "Orientation": "h",
+                    "Damage": "9",
+                    "Frames": "10",
+                    "On Block": "+1",
+                    "On Hit": "+8",
+                    "CH": "+8"
+                },
+                {
+                    "Command": "1, 1",
+                    "Orientation": "h, h",
+                    "Damage": "9,9",
+                    "Frames": "10",
+                    "On Block": "-2",
+                    "On Hit": "+9",
+                    "CH": "+9"
+                },
+                {
+                    "Command": "1, 1, 3",
+                    "Orientation": "h, h, l",
+                    "Damage": "9,10,13",
+                    "Frames": "10",
+                    "On Block": "-10",
+                    "On Hit": "+1",
+                    "CH": "+1"
+                },
+                {
+                    "Command": "1, 1, 3, 3",
+                    "Orientation": "h, h, l, h",
+                    "Damage": "9,10,13,24",
+                    "Frames": "10",
+                    "On Block": "-15",
+                    "On Hit": "-4",
+                    "CH": "-4"
+                },
+                {
+                    "Command": "1, 2",
+                    "Orientation": "h, h",
+                    "Damage": "9,13",
+                    "Frames": "10",
+                    "On Block": "-1",
+                    "On Hit": "+7",
+                    "CH": "+8"
+                },
+                {
+                    "Command": "1, 2, 3",
+                    "Orientation": "h, h, (Special)",
+                    "Damage": "9,13",
+                    "Frames": "10",
+                    "On Block": "+3",
+                    "On Hit": "+11 GB",
+                    "CH": "+12"
+                },
+                {
+                    "Command": "1, 2, 4",
+                    "Orientation": "h, h, (Special)",
+                    "Damage": "9,13",
+                    "Frames": "10",
+                    "On Block": "+3",
+                    "On Hit": "+11 GB",
+                    "CH": "+12"
+                },
+                {
+                    "Command": "1, 2, f+3",
+                    "Orientation": "h, h, m",
+                    "Damage": "9,13,22",
+                    "Frames": "10",
+                    "On Block": "-8",
+                    "On Hit": "+3",
+                    "CH": "+3"
+                },
+                {
+                    "Command": "1, 2, f+4 (Close)",
+                    "Orientation": "h, h, h (TJ)",
+                    "Damage": "8,12,44",
+                    "Frames": "10",
+                    "On Block": "+8~+9",
+                    "On Hit": "KND",
+                    "CH": "KND"
+                },
+                {
+                    "Command": "1, 2, f+4 (Far)",
+                    "Orientation": "h, h, h (TJ)",
+                    "Damage": "8,12,33",
+                    "Frames": "10",
+                    "On Block": "-11~-10",
+                    "On Hit": "KND",
+                    "CH": "KND"
+                },
+                {
+                    "Command": "2",
+                    "Orientation": "h",
+                    "Damage": "12",
+                    "Frames": "10",
+                    "On Block": "0",
+                    "On Hit": "+8",
+                    "CH": "+9"
+                },
+                {
+                    "Command": "2, 3",
+                    "Orientation": "h, (LFS)",
+                    "Damage": "12",
+                    "Frames": "10",
+                    "On Block": "+3",
+                    "On Hit": "+11 GB",
+                    "CH": "+12"
+                },
+                {
+                    "Command": "2, 4",
+                    "Orientation": "h, (RFS)",
+                    "Damage": "12",
+                    "Frames": "10",
+                    "On Block": "+3",
+                    "On Hit": "+11 GB",
+                    "CH": "+12"
+                },
+                {
+                    "Command": "2, f+3",
+                    "Orientation": "h, m",
+                    "Damage": "12,22",
+                    "Frames": "10",
+                    "On Block": "-8",
+                    "On Hit": "+3",
+                    "CH": "+3"
+                },
+                {
+                    "Command": "2, f+4 (Close)",
+                    "Orientation": "h, h (TJ)",
+                    "Damage": "12,49",
+                    "Frames": "10",
+                    "On Block": "+8~+9",
+                    "On Hit": "KND",
+                    "CH": "KND"
+                },
+                {
+                    "Command": "2, f+4 (Far)",
+                    "Orientation": "h, h (TJ)",
+                    "Damage": "12,33",
+                    "Frames": "10",
+                    "On Block": "-11~-10",
+                    "On Hit": "KND",
+                    "CH": "KND"
+                },
+                {
+                    "Command": "3",
+                    "Orientation": "h",
+                    "Damage": "20",
+                    "Frames": "14",
+                    "On Block": "-7",
+                    "On Hit": "+4",
+                    "CH": "+4"
+                },
+                {
+                    "Command": "3, 3",
+                    "Orientation": "h, m",
+                    "Damage": "20,16",
+                    "Frames": "14",
+                    "On Block": "-13",
+                    "On Hit": "-7",
+                    "CH": "-2"
+                },
+                {
+                    "Command": "3, 3, F",
+                    "Orientation": "h, m, (LFS)",
+                    "Damage": "20,16",
+                    "Frames": "14",
+                    "On Block": "+2",
+                    "On Hit": "+8",
+                    "CH": "+13"
+                },
+                {
+                    "Command": "3, 3, 3",
+                    "Orientation": "h, m, m",
+                    "Damage": "20,16,20",
+                    "Frames": "14",
+                    "On Block": "-14",
+                    "On Hit": "KND",
+                    "CH": "KND"
+                },
+                {
+                    "Command": "3, 3, 4",
+                    "Orientation": "h, m, h, (RFS)",
+                    "Damage": "20,16,20",
+                    "Frames": "14",
+                    "On Block": "+9",
+                    "On Hit": "+20 GB",
+                    "CH": "+20"
+                },
+                {
+                    "Command": "3, 3, d/f or f+4",
+                    "Orientation": "h, m, h",
+                    "Damage": "20,16,33",
+                    "Frames": "14",
+                    "On Block": "-1 OS",
+                    "On Hit": "KND",
+                    "CH": "KND"
+                },
+                {
+                    "Command": "3, 3, d+3",
+                    "Orientation": "h, m, l",
+                    "Damage": "20,16,9",
+                    "Frames": "14",
+                    "On Block": "-11",
+                    "On Hit": "0",
+                    "CH": "0"
+                },
+                {
+                    "Command": "3, 3, d+3, 4",
+                    "Orientation": "h, m, l, h, (RFS)",
+                    "Damage": "20,16,9,13",
+                    "Frames": "14",
+                    "On Block": "+9",
+                    "On Hit": "+20 GB",
+                    "CH": "+20"
+                },
+                {
+                    "Command": "3~4",
+                    "Orientation": "mm (TJ)",
+                    "Damage": "14,28",
+                    "Frames": "21,29 (22~)",
+                    "On Block": "-5",
+                    "On Hit": "KND",
+                    "CH": "KND"
+                },
+                {
+                    "Command": "4",
+                    "Orientation": "h",
+                    "Damage": "18",
+                    "Frames": "11",
+                    "On Block": "-4",
+                    "On Hit": "+7",
+                    "CH": "+7"
+                },
+                {
+                    "Command": "4, 3",
+                    "Orientation": "h, m(LFF)",
+                    "Damage": "18,16",
+                    "Frames": "11",
+                    "On Block": "-6",
+                    "On Hit": "+5",
+                    "CH": "+5"
+                },
+                {
+                    "Command": "4, 3, f (Cancel)",
+                    "Orientation": "h, (LFS)",
+                    "Damage": "18",
+                    "Frames": "11",
+                    "On Block": "-6",
+                    "On Hit": "+5",
+                    "CH": "+5"
+                },
+                {
+                    "Command": "4, 4",
+                    "Orientation": "h, h(LFF)",
+                    "Damage": "18,13",
+                    "Frames": "11",
+                    "On Block": "-9",
+                    "On Hit": "+2",
+                    "CH": "+2"
+                },
+                {
+                    "Command": "4, F+4",
+                    "Orientation": "h, h(RFF)",
+                    "Damage": "18,13",
+                    "Frames": "11",
+                    "On Block": "-5",
+                    "On Hit": "+6",
+                    "CH": "+6"
+                },
+                {
+                    "Command": "4, 4, 3",
+                    "Orientation": "h, h, m(RFF)",
+                    "Damage": "18,13,27",
+                    "Frames": "11",
+                    "On Block": "-15~-9 OC",
+                    "On Hit": "KND",
+                    "CH": "KND"
+                },
+                {
+                    "Command": "4, 4, 4",
+                    "Orientation": "h, h, h, (RFS)",
+                    "Damage": "18,13,13",
+                    "Frames": "11",
+                    "On Block": "-1",
+                    "On Hit": "+10",
+                    "CH": "+10"
+                },
+                {
+                    "Command": "4, 4, b+4",
+                    "Orientation": "h, h, h(LFF)",
+                    "Damage": "18,13,13",
+                    "Frames": "11",
+                    "On Block": "-6",
+                    "On Hit": "+5",
+                    "CH": "+5"
+                },
+                {
+                    "Command": "4, 4, F+4",
+                    "Orientation": "h, h, h(RFF)",
+                    "Damage": "18,13,33",
+                    "Frames": "11",
+                    "On Block": "-6",
+                    "On Hit": "+5",
+                    "CH": "+5"
+                },
+                {
+                    "Command": "4, 4, 4, 4",
+                    "Orientation": "h, h, h, m(RFF)",
+                    "Damage": "18,13,13,27",
+                    "Frames": "11",
+                    "On Block": "-4",
+                    "On Hit": "KND",
+                    "CH": "KND"
+                },
+                {
+                    "Command": "4, 4, 4, 3",
+                    "Orientation": "h, h, h, l",
+                    "Damage": "18,13,13,13",
+                    "Frames": "11",
+                    "On Block": "-18",
+                    "On Hit": "JG",
+                    "CH": "JG"
+                },
+                {
+                    "Command": "1+2",
+                    "Orientation": "(RFF)",
+                    "Damage": "B",
+                    "Frames": "11",
+                    "On Block": "",
+                    "On Hit": "",
+                    "CH": ""
+                },
+                {
+                    "Command": "3+4",
+                    "Orientation": "(RFF)",
+                    "Damage": "",
+                    "Frames": "11",
+                    "On Block": "",
+                    "On Hit": "",
+                    "CH": ""
+                },
+                {
+                    "Command": "f+2",
+                    "Orientation": "m(RFF)",
+                    "Damage": "24",
+                    "Frames": "16",
+                    "On Block": "-2",
+                    "On Hit": "+9",
+                    "CH": "+9"
+                },
+                {
+                    "Command": "f+3 (to LFS)",
+                    "Orientation": "(LFS)",
+                    "Damage": "",
+                    "Frames": "16",
+                    "On Block": "",
+                    "On Hit": "",
+                    "CH": ""
+                },
+                {
+                    "Command": "f+3n~3",
+                    "Orientation": "m",
+                    "Damage": "33",
+                    "Frames": "20(20~)",
+                    "On Block": "-16",
+                    "On Hit": "KND",
+                    "CH": "KND"
+                },
+                {
+                    "Command": "f, n+4",
+                    "Orientation": "(Special)",
+                    "Damage": "",
+                    "Frames": "20(20~)",
+                    "On Block": "",
+                    "On Hit": "",
+                    "CH": ""
+                },
+                {
+                    "Command": "f+4",
+                    "Orientation": "h, (RFS)",
+                    "Damage": "28",
+                    "Frames": "17~18",
+                    "On Block": "+9~+10",
+                    "On Hit": "+20~+21 GB",
+                    "CH": "+20~+21 GB"
+                },
+                {
+                    "Command": "f+4, 4",
+                    "Orientation": "h, m",
+                    "Damage": "28,20",
+                    "Frames": "17~18",
+                    "On Block": "-7",
+                    "On Hit": "+9",
+                    "CH": "KND"
+                },
+                {
+                    "Command": "f+1+2",
+                    "Orientation": "m",
+                    "Damage": "24",
+                    "Frames": "15",
+                    "On Block": "-2",
+                    "On Hit": "+6",
+                    "CH": "KND"
+                },
+                {
+                    "Command": "d/f+3 or RFF d/f+3+4",
+                    "Orientation": "m",
+                    "Damage": "18",
+                    "Frames": "14",
+                    "On Block": "-14",
+                    "On Hit": "-3",
+                    "CH": "-3"
+                },
+                {
+                    "Command": "d/f+3, 3",
+                    "Orientation": "m, m",
+                    "Damage": "18,20",
+                    "Frames": "14",
+                    "On Block": "-14",
+                    "On Hit": "KND",
+                    "CH": "KND"
+                },
+                {
+                    "Command": "d/f+3, 4",
+                    "Orientation": "m, h, (RFS)",
+                    "Damage": "18,20",
+                    "Frames": "14",
+                    "On Block": "+9",
+                    "On Hit": "+20 GB",
+                    "CH": "+20"
+                },
+                {
+                    "Command": "d/f+3, d/f or f+4",
+                    "Orientation": "m, h",
+                    "Damage": "18,33",
+                    "Frames": "14",
+                    "On Block": "-1 OS",
+                    "On Hit": "KND",
+                    "CH": "KND"
+                },
+                {
+                    "Command": "d/f+4",
+                    "Orientation": "m",
+                    "Damage": "20",
+                    "Frames": "14",
+                    "On Block": "-12",
+                    "On Hit": "-1",
+                    "CH": "-1"
+                },
+                {
+                    "Command": "d/f+4, 3",
+                    "Orientation": "m, h",
+                    "Damage": "20,20",
+                    "Frames": "14",
+                    "On Block": "-7",
+                    "On Hit": "+5",
+                    "CH": "+5"
+                },
+                {
+                    "Command": "d/f+1+2",
+                    "Orientation": "m",
+                    "Damage": "16",
+                    "Frames": "13",
+                    "On Block": "-3",
+                    "On Hit": "+8",
+                    "CH": "+8"
+                },
+                {
+                    "Command": "d/f+3+4",
+                    "Orientation": "m(, (Sky)(throw))",
+                    "Damage": "10(,5,7)",
+                    "Frames": "15~16",
+                    "On Block": "-11~-10",
+                    "On Hit": "0~+1",
+                    "CH": "0~+1"
+                },
+                {
+                    "Command": "d+3",
+                    "Orientation": "l",
+                    "Damage": "9",
+                    "Frames": "17",
+                    "On Block": "-13",
+                    "On Hit": "-2",
+                    "CH": "-2"
+                },
+                {
+                    "Command": "d+3, 3",
+                    "Orientation": "l, hh, (LFS)",
+                    "Damage": "9,8,8",
+                    "Frames": "17",
+                    "On Block": "+1",
+                    "On Hit": "+3",
+                    "CH": "+3(+7)"
+                },
+                {
+                    "Command": "d+3, 4",
+                    "Orientation": "l, h, (RFS)",
+                    "Damage": "9,13",
+                    "Frames": "17",
+                    "On Block": "+8~+10",
+                    "On Hit": "+14~+16 GB",
+                    "CH": "+19~+21"
+                },
+                {
+                    "Command": "d+4",
+                    "Orientation": "l (TC)",
+                    "Damage": "9",
+                    "Frames": "19 RC",
+                    "On Block": "-17",
+                    "On Hit": "-6",
+                    "CH": "-6"
+                },
+                {
+                    "Command": "d+4, 4",
+                    "Orientation": "l (TC), h",
+                    "Damage": "9,29",
+                    "Frames": "19",
+                    "On Block": "-8",
+                    "On Hit": "JG",
+                    "CH": "JG"
+                },
+                {
+                    "Command": "d+3+4",
+                    "Orientation": "h (TJ)",
+                    "Damage": "31",
+                    "Frames": "30",
+                    "On Block": "-11",
+                    "On Hit": "+5",
+                    "CH": "CS"
+                },
+                {
+                    "Command": "d+3+4, 3",
+                    "Orientation": "h (TJ), m",
+                    "Damage": "31,27",
+                    "Frames": "30",
+                    "On Block": "-13",
+                    "On Hit": "KND",
+                    "CH": "KND"
+                },
+                {
+                    "Command": "d+3+4, 4",
+                    "Orientation": "h (TJ), h (TJ)",
+                    "Damage": "31,27",
+                    "Frames": "30",
+                    "On Block": "-11",
+                    "On Hit": "KND",
+                    "CH": "KND"
+                },
+                {
+                    "Command": "d+3+4, 4, 3",
+                    "Orientation": "h (TJ), h (TJ), m",
+                    "Damage": "31,27,27",
+                    "Frames": "30",
+                    "On Block": "-13",
+                    "On Hit": "KND",
+                    "CH": "KND"
+                },
+                {
+                    "Command": "d+3+4, 4, 4",
+                    "Orientation": "h (TJ), h (TJ), h (TJ)",
+                    "Damage": "31,27,18",
+                    "Frames": "30",
+                    "On Block": "+14GB",
+                    "On Hit": "KND",
+                    "CH": "KND"
+                },
+                {
+                    "Command": "d/b+3",
+                    "Orientation": "l (TC)",
+                    "Damage": "16",
+                    "Frames": "19 RC",
+                    "On Block": "-13",
+                    "On Hit": "0",
+                    "CH": "+7"
+                },
+                {
+                    "Command": "d/b+4",
+                    "Orientation": "l",
+                    "Damage": "16",
+                    "Frames": "16",
+                    "On Block": "-12",
+                    "On Hit": "-8",
+                    "CH": "-1"
+                },
+                {
+                    "Command": "d/b+4, f",
+                    "Orientation": "l, (RFS)",
+                    "Damage": "16",
+                    "Frames": "16",
+                    "On Block": "-1",
+                    "On Hit": "+3",
+                    "CH": "+10"
+                },
+                {
+                    "Command": "d/b+4, 4",
+                    "Orientation": "l, h",
+                    "Damage": "16,28",
+                    "Frames": "16",
+                    "On Block": "-2",
+                    "On Hit": "KND",
+                    "CH": "KND"
+                },
+                {
+                    "Command": "d/b+3+4",
+                    "Orientation": "!",
+                    "Damage": "54",
+                    "Frames": "61",
+                    "On Block": "KND",
+                    "On Hit": "KND",
+                    "CH": "KND"
+                },
+                {
+                    "Command": "d/b+3+4, b, b (Cancel)",
+                    "Orientation": "(LFS)",
+                    "Damage": "",
+                    "Frames": "61",
+                    "On Block": "",
+                    "On Hit": "",
+                    "CH": ""
+                },
+                {
+                    "Command": "b+2",
+                    "Orientation": "h",
+                    "Damage": "24",
+                    "Frames": "13~14",
+                    "On Block": "-5~-4",
+                    "On Hit": "+4~+5",
+                    "CH": "CS"
+                },
+                {
+                    "Command": "b+3",
+                    "Orientation": "m",
+                    "Damage": "20",
+                    "Frames": "17",
+                    "On Block": "-15",
+                    "On Hit": "JG",
+                    "CH": "JG"
+                },
+                {
+                    "Command": "b+4",
+                    "Orientation": "m(RFF)",
+                    "Damage": "27",
+                    "Frames": "16~17",
+                    "On Block": "-8~-7",
+                    "On Hit": "+8~+9",
+                    "CH": "KND"
+                },
+                {
+                    "Command": "u/b+4",
+                    "Orientation": "m (TJ)",
+                    "Damage": "24",
+                    "Frames": "17",
+                    "On Block": "-14",
+                    "On Hit": "+4",
+                    "CH": "+4"
+                },
+                {
+                    "Command": "u/b or u+3",
+                    "Orientation": "h (TJ), (LFS)",
+                    "Damage": "33",
+                    "Frames": "20",
+                    "On Block": "+3",
+                    "On Hit": "CS",
+                    "CH": "CS"
+                },
+                {
+                    "Command": "u+4",
+                    "Orientation": "m (TJ), (RFS)",
+                    "Damage": "24",
+                    "Frames": "16",
+                    "On Block": "0",
+                    "On Hit": "+11 GB",
+                    "CH": "+11"
+                },
+                {
+                    "Command": "u+3+4",
+                    "Orientation": "m (TJ)",
+                    "Damage": "24",
+                    "Frames": "25",
+                    "On Block": "-9",
+                    "On Hit": "KND",
+                    "CH": "KND"
+                },
+                {
+                    "Command": "u/f+2",
+                    "Orientation": "m (TJ)",
+                    "Damage": "29",
+                    "Frames": "26",
+                    "On Block": "+5 OC",
+                    "On Hit": "+4 OC",
+                    "CH": "+9 OC"
+                },
+                {
+                    "Command": "u/f+3",
+                    "Orientation": "m (TJ)",
+                    "Damage": "20",
+                    "Frames": "28~29",
+                    "On Block": "-6~-5",
+                    "On Hit": "KND",
+                    "CH": "KND"
+                },
+                {
+                    "Command": "u/f+3, 4",
+                    "Orientation": "m (TJ), m",
+                    "Damage": "20,18",
+                    "Frames": "28~29",
+                    "On Block": "-8",
+                    "On Hit": "JG",
+                    "CH": "JG"
+                },
+                {
+                    "Command": "u/f+3, 4 (when second hit inputted)",
+                    "Orientation": "m (TJ)",
+                    "Damage": "20",
+                    "Frames": "28~29",
+                    "On Block": "-12",
+                    "On Hit": "KND",
+                    "CH": "KND"
+                },
+                {
+                    "Command": "u/f+3, 4, 3",
+                    "Orientation": "m (TJ), m, h",
+                    "Damage": "20,18,33",
+                    "Frames": "28~29",
+                    "On Block": "",
+                    "On Hit": "KND",
+                    "CH": ""
+                },
+                {
+                    "Command": "u/f+4",
+                    "Orientation": "h (TJ), (RFS)",
+                    "Damage": "16",
+                    "Frames": "22",
+                    "On Block": "-2",
+                    "On Hit": "+4",
+                    "CH": "+4"
+                },
+                {
+                    "Command": "u/f+4, 4",
+                    "Orientation": "h (TJ), m (TJ), (RFS)",
+                    "Damage": "16,16",
+                    "Frames": "22",
+                    "On Block": "0",
+                    "On Hit": "+6",
+                    "CH": "+6"
+                },
+                {
+                    "Command": "u/f+4, 4, 4",
+                    "Orientation": "h (TJ), m (TJ), l, (RFS)",
+                    "Damage": "16,16,20",
+                    "Frames": "22",
+                    "On Block": "+1",
+                    "On Hit": "+7",
+                    "CH": "JG"
+                },
+                {
+                    "Command": "u/f+4, n",
+                    "Orientation": "h (TJ)(RFF)",
+                    "Damage": "16",
+                    "Frames": "22",
+                    "On Block": "-14",
+                    "On Hit": "-7",
+                    "CH": "-7"
+                },
+                {
+                    "Command": "u/f+4, 4, n",
+                    "Orientation": "h (TJ), m (TJ)(RFF)",
+                    "Damage": "16,16",
+                    "Frames": "22",
+                    "On Block": "-10",
+                    "On Hit": "-4",
+                    "CH": "-4"
+                },
+                {
+                    "Command": "u/f+4, 4, 4, n",
+                    "Orientation": "h (TJ), m (TJ), l(RFF)",
+                    "Damage": "16,16,20",
+                    "Frames": "22",
+                    "On Block": "-6",
+                    "On Hit": "0",
+                    "CH": "JG"
+                },
+                {
+                    "Command": "u/f+3+4",
+                    "Orientation": "mh (TJ)",
+                    "Damage": "13,10",
+                    "Frames": "14,25",
+                    "On Block": "-10",
+                    "On Hit": "+1",
+                    "CH": "+1"
+                },
+                {
+                    "Command": "u/f+3+4, 4",
+                    "Orientation": "mh (TJ), m (TJ)",
+                    "Damage": "13,10,17",
+                    "Frames": "14,25",
+                    "On Block": "-13",
+                    "On Hit": "+1",
+                    "CH": "+1"
+                },
+                {
+                    "Command": "f, F+3",
+                    "Orientation": "m(RFF)",
+                    "Damage": "32",
+                    "Frames": "22~24 (23~)",
+                    "On Block": "+4~+6",
+                    "On Hit": "+4~+6 OC",
+                    "CH": "+4~+6 OC"
+                },
+                {
+                    "Command": "f, F+4",
+                    "Orientation": "h (TJ)",
+                    "Damage": "37",
+                    "Frames": "18~19 (19~)",
+                    "On Block": "-4~-3",
+                    "On Hit": "+8OB~+9OB",
+                    "CH": "+8OB~+9OB"
+                },
+                {
+                    "Command": "f, n, d, d/f+3",
+                    "Orientation": "m, (LFS)",
+                    "Damage": "36",
+                    "Frames": "18(21~)",
+                    "On Block": "0",
+                    "On Hit": "KND",
+                    "CH": "KND"
+                },
+                {
+                    "Command": "f, n, d, d/f+4",
+                    "Orientation": "m",
+                    "Damage": "28",
+                    "Frames": "16(19~)",
+                    "On Block": "-17",
+                    "On Hit": "JG",
+                    "CH": "JG"
+                },
+                {
+                    "Command": "f, n, d/f+4",
+                    "Orientation": "m",
+                    "Damage": "28",
+                    "Frames": "16(18~)",
+                    "On Block": "-10",
+                    "On Hit": "JG",
+                    "CH": "JG"
+                },
+                {
+                    "Command": "f, n, d, d/f+3+4",
+                    "Orientation": "m(RFF)",
+                    "Damage": "21",
+                    "Frames": "20 RBT(23~)",
+                    "On Block": "-9",
+                    "On Hit": "+2",
+                    "CH": "+2"
+                },
+                {
+                    "Command": "f, n, d, d/f+3+4, 3",
+                    "Orientation": "m, m",
+                    "Damage": "21,27",
+                    "Frames": "20(23~)",
+                    "On Block": "-5~-1",
+                    "On Hit": "+6~+10 OC (KND)",
+                    "CH": "KND"
+                },
+                {
+                    "Command": "f, f, f+3 or WR+3",
+                    "Orientation": "m (TJ)",
+                    "Damage": "37",
+                    "Frames": "22~23 (25~)",
+                    "On Block": "+6~+7",
+                    "On Hit": "KND",
+                    "CH": "KND"
+                },
+                {
+                    "Command": "WS+3",
+                    "Orientation": "m",
+                    "Damage": "27",
+                    "Frames": "14~15",
+                    "On Block": "-7~-6",
+                    "On Hit": "KND",
+                    "CH": "KND"
+                },
+                {
+                    "Command": "WS+4",
+                    "Orientation": "m",
+                    "Damage": "16",
+                    "Frames": "11",
+                    "On Block": "-3",
+                    "On Hit": "+8",
+                    "CH": "+8"
+                },
+                {
+                    "Command": "WS+4, 4",
+                    "Orientation": "m, m(RFF)",
+                    "Damage": "16,17",
+                    "Frames": "11",
+                    "On Block": "-4~-3",
+                    "On Hit": "+2~+3 OC",
+                    "CH": "+2~+3 OC"
+                },
+                {
+                    "Command": "WS+3+4",
+                    "Orientation": "m(RFF)",
+                    "Damage": "21",
+                    "Frames": "20 RBT",
+                    "On Block": "-9",
+                    "On Hit": "+2",
+                    "CH": "+2"
+                },
+                {
+                    "Command": "WS+3+4, 3",
+                    "Orientation": "m, m",
+                    "Damage": "21,27",
+                    "Frames": "20",
+                    "On Block": "-5~-1",
+                    "On Hit": "+6~+10 OC (KND)",
+                    "CH": "KND"
+                },
+                {
+                    "Command": "SS+3",
+                    "Orientation": "m",
+                    "Damage": "20",
+                    "Frames": "18(28~)",
+                    "On Block": "-12",
+                    "On Hit": "-1",
+                    "CH": "FS(+6)"
+                },
+                {
+                    "Command": "SS+3, 3",
+                    "Orientation": "m, h(LFS)",
+                    "Damage": "20,24",
+                    "Frames": "18(28~)",
+                    "On Block": "+3",
+                    "On Hit": "+14 GB",
+                    "CH": "+14"
+                },
+                {
+                    "Command": "SS+4",
+                    "Orientation": "l(RFF)",
+                    "Damage": "25",
+                    "Frames": "19(29~)",
+                    "On Block": "-12",
+                    "On Hit": "+5 OC",
+                    "CH": "JG"
+                },
+                {
+                    "Command": "LFF BT 4",
+                    "Orientation": "m(RFF)",
+                    "Damage": "27",
+                    "Frames": "14",
+                    "On Block": "-13",
+                    "On Hit": "JG",
+                    "CH": "JG"
+                },
+                {
+                    "Command": "RFF 1+2",
+                    "Orientation": "(LFF)",
+                    "Damage": "B",
+                    "Frames": "14",
+                    "On Block": "",
+                    "On Hit": "",
+                    "CH": ""
+                },
+                {
+                    "Command": "RFF 3+4",
+                    "Orientation": "(LFF)",
+                    "Damage": "",
+                    "Frames": "14",
+                    "On Block": "",
+                    "On Hit": "",
+                    "CH": ""
+                },
+                {
+                    "Command": "RFF 1",
+                    "Orientation": "h",
+                    "Damage": "13",
+                    "Frames": "10",
+                    "On Block": "0",
+                    "On Hit": "+6",
+                    "CH": "+6"
+                },
+                {
+                    "Command": "RFF 1, 1",
+                    "Orientation": "h, m(LFF)",
+                    "Damage": "13,16",
+                    "Frames": "10",
+                    "On Block": "-9",
+                    "On Hit": "+2",
+                    "CH": "+2"
+                },
+                {
+                    "Command": "RFF 2",
+                    "Orientation": "h",
+                    "Damage": "8",
+                    "Frames": "10",
+                    "On Block": "+2",
+                    "On Hit": "+8",
+                    "CH": "+8"
+                },
+                {
+                    "Command": "RFF 2, 1",
+                    "Orientation": "h, h",
+                    "Damage": "8,13",
+                    "Frames": "10",
+                    "On Block": "0",
+                    "On Hit": "+6",
+                    "CH": "+6"
+                },
+                {
+                    "Command": "RFF 2, 1, 1",
+                    "Orientation": "h, h, m(LFF)",
+                    "Damage": "8,13,16",
+                    "Frames": "10",
+                    "On Block": "-9",
+                    "On Hit": "+2",
+                    "CH": "+2"
+                },
+                {
+                    "Command": "RFF 2, 3",
+                    "Orientation": "h, h(LFF)",
+                    "Damage": "8,31",
+                    "Frames": "10",
+                    "On Block": "-7",
+                    "On Hit": "+4",
+                    "CH": "+25(SH)"
+                },
+                {
+                    "Command": "RFF 2, 4",
+                    "Orientation": "h, h(RFF)",
+                    "Damage": "8,16",
+                    "Frames": "10",
+                    "On Block": "-8",
+                    "On Hit": "+3",
+                    "CH": "+3"
+                },
+                {
+                    "Command": "RFF 2, 4, b or f",
+                    "Orientation": "h, h, (RFS)",
+                    "Damage": "8,16",
+                    "Frames": "10",
+                    "On Block": "+7",
+                    "On Hit": "+18 GB",
+                    "CH": "+18 GB"
+                },
+                {
+                    "Command": "RFF 2, 4, d or u",
+                    "Orientation": "h, h, (RFS)",
+                    "Damage": "8,16",
+                    "Frames": "10",
+                    "On Block": "+6",
+                    "On Hit": "+17 GB",
+                    "CH": "+17 GB"
+                },
+                {
+                    "Command": "RFF 2, 4, 3",
+                    "Orientation": "h, h, m",
+                    "Damage": "8,16,27",
+                    "Frames": "10",
+                    "On Block": "-15~-9 OC",
+                    "On Hit": "KND",
+                    "CH": "KND"
+                },
+                {
+                    "Command": "RFF 2, 4, 4",
+                    "Orientation": "h, h, h(LFF)",
+                    "Damage": "8,16,32",
+                    "Frames": "10",
+                    "On Block": "-4",
+                    "On Hit": "KND",
+                    "CH": "KND"
+                },
+                {
+                    "Command": "RFF 2, b+4",
+                    "Orientation": "h, h (TC)(LFF)",
+                    "Damage": "8,36",
+                    "Frames": "10",
+                    "On Block": "-11",
+                    "On Hit": "KND",
+                    "CH": "KND"
+                },
+                {
+                    "Command": "RFF 3",
+                    "Orientation": "m(LFF)",
+                    "Damage": "18",
+                    "Frames": "16",
+                    "On Block": "-4",
+                    "On Hit": "+7",
+                    "CH": "+7"
+                },
+                {
+                    "Command": "RFF 3, 4",
+                    "Orientation": "m, h, (RFS)",
+                    "Damage": "18,21",
+                    "Frames": "16",
+                    "On Block": "+9 GB",
+                    "On Hit": "+20 GB",
+                    "CH": "+10"
+                },
+                {
+                    "Command": "RFF 3, F+4",
+                    "Orientation": "m, h, (RFF)",
+                    "Damage": "18,21",
+                    "Frames": "16",
+                    "On Block": "-8",
+                    "On Hit": "+3",
+                    "CH": "-7"
+                },
+                {
+                    "Command": "RFF 3~4",
+                    "Orientation": "h(LFF)",
+                    "Damage": "60",
+                    "Frames": "27~28",
+                    "On Block": "+5~+6 OS",
+                    "On Hit": "KND",
+                    "CH": "KND"
+                },
+                {
+                    "Command": "RFF 3~4b or f",
+                    "Orientation": "h, (RFS)",
+                    "Damage": "36",
+                    "Frames": "27~28",
+                    "On Block": "+15~ +16GB",
+                    "On Hit": "KND",
+                    "CH": "KND"
+                },
+                {
+                    "Command": "RFF 4",
+                    "Orientation": "h(RFF)",
+                    "Damage": "16",
+                    "Frames": "12",
+                    "On Block": "-8",
+                    "On Hit": "+3",
+                    "CH": "+3"
+                },
+                {
+                    "Command": "RFF 4, b or f",
+                    "Orientation": "h, (RFS)",
+                    "Damage": "16",
+                    "Frames": "12",
+                    "On Block": "+7",
+                    "On Hit": "+18 GB",
+                    "CH": "+18"
+                },
+                {
+                    "Command": "RFF 4, d or u",
+                    "Orientation": "h, (RFS)",
+                    "Damage": "16",
+                    "Frames": "12",
+                    "On Block": "+6",
+                    "On Hit": "+17 GB",
+                    "CH": "+17"
+                },
+                {
+                    "Command": "RFF 4, 3",
+                    "Orientation": "h, m, (Special)",
+                    "Damage": "16,27",
+                    "Frames": "12",
+                    "On Block": "-15~-9 OC",
+                    "On Hit": "KND",
+                    "CH": "KND"
+                },
+                {
+                    "Command": "RFF 4, 4",
+                    "Orientation": "h, h(LFF)",
+                    "Damage": "16,32",
+                    "Frames": "12",
+                    "On Block": "-4",
+                    "On Hit": "KND",
+                    "CH": "KND"
+                },
+                {
+                    "Command": "RFF f+4",
+                    "Orientation": "(Special)",
+                    "Damage": "",
+                    "Frames": "12",
+                    "On Block": "",
+                    "On Hit": "",
+                    "CH": ""
+                },
+                {
+                    "Command": "RFF f+4~4",
+                    "Orientation": "m",
+                    "Damage": "24",
+                    "Frames": "18(18~)",
+                    "On Block": "-12",
+                    "On Hit": "JG",
+                    "CH": "JG"
+                },
+                {
+                    "Command": "RFF f+3",
+                    "Orientation": "h, (LFS)",
+                    "Damage": "28",
+                    "Frames": "14~15",
+                    "On Block": "+12~+13 GB",
+                    "On Hit": "+23~+24 GB",
+                    "CH": "+23~+24 GB"
+                },
+                {
+                    "Command": "RFF f+3, B",
+                    "Orientation": "h(RFF)",
+                    "Damage": "28",
+                    "Frames": "14~15 RBT",
+                    "On Block": "-11~-10",
+                    "On Hit": "0~+1",
+                    "CH": "0~+1"
+                },
+                {
+                    "Command": "RFF f+3, 4",
+                    "Orientation": "h, l(LFF)",
+                    "Damage": "28,27",
+                    "Frames": "14~15",
+                    "On Block": "-11~-10",
+                    "On Hit": "+7~+8",
+                    "CH": "JG"
+                },
+                {
+                    "Command": "RFF d/f+3",
+                    "Orientation": "m(LFF)",
+                    "Damage": "33",
+                    "Frames": "20",
+                    "On Block": "-11",
+                    "On Hit": "KND",
+                    "CH": "KND"
+                },
+                {
+                    "Command": "RFF d/f+4",
+                    "Orientation": "m",
+                    "Damage": "16",
+                    "Frames": "13",
+                    "On Block": "-7",
+                    "On Hit": "+1",
+                    "CH": "+1"
+                },
+                {
+                    "Command": "RFF d/f+4, b or f",
+                    "Orientation": "m, (RFS)",
+                    "Damage": "16",
+                    "Frames": "13",
+                    "On Block": "+7",
+                    "On Hit": "+15 GB",
+                    "CH": "+15"
+                },
+                {
+                    "Command": "RFF d/f+4, d or u",
+                    "Orientation": "m, (RFS)",
+                    "Damage": "16",
+                    "Frames": "13",
+                    "On Block": "+6",
+                    "On Hit": "+14 GB",
+                    "CH": "+14"
+                },
+                {
+                    "Command": "RFF d+4",
+                    "Orientation": "l",
+                    "Damage": "27",
+                    "Frames": "19",
+                    "On Block": "-11",
+                    "On Hit": "+5",
+                    "CH": "+5"
+                },
+                {
+                    "Command": "RFF d/b+3",
+                    "Orientation": "l (TC)",
+                    "Damage": "20",
+                    "Frames": "17",
+                    "On Block": "-9",
+                    "On Hit": "+2",
+                    "CH": "+6"
+                },
+                {
+                    "Command": "RFF d/b+3, 3",
+                    "Orientation": "l, h(LFF)",
+                    "Damage": "20,54",
+                    "Frames": "17",
+                    "On Block": "-2 OS",
+                    "On Hit": "KND",
+                    "CH": "KND"
+                },
+                {
+                    "Command": "RFF b+2",
+                    "Orientation": "m",
+                    "Damage": "20",
+                    "Frames": "16~17",
+                    "On Block": "+2~+3",
+                    "On Hit": "+6~+7 OC",
+                    "CH": "KND"
+                },
+                {
+                    "Command": "RFF b+3",
+                    "Orientation": "h(LFF)",
+                    "Damage": "31",
+                    "Frames": "12~13",
+                    "On Block": "-7~-6",
+                    "On Hit": "+4~+5",
+                    "CH": "+25(SH)"
+                },
+                {
+                    "Command": "RFF b+4",
+                    "Orientation": "h (TC)(LFF)",
+                    "Damage": "36",
+                    "Frames": "18",
+                    "On Block": "-11",
+                    "On Hit": "KND",
+                    "CH": "KND"
+                },
+                {
+                    "Command": "RFF f, F+3",
+                    "Orientation": "m (TJ)(LFF)",
+                    "Damage": "29",
+                    "Frames": "22~23 (23~)",
+                    "On Block": "-6~-5 OC",
+                    "On Hit": "KND",
+                    "CH": "KND"
+                },
+                {
+                    "Command": "RFF f, F+4",
+                    "Orientation": "m(LFF)",
+                    "Damage": "24",
+                    "Frames": "22(23~)",
+                    "On Block": "-17",
+                    "On Hit": "-6",
+                    "CH": "-6"
+                },
+                {
+                    "Command": "RFF f, F+4, 3",
+                    "Orientation": "m, h (TJ)",
+                    "Damage": "24,27",
+                    "Frames": "22(23~)",
+                    "On Block": "+14~+15",
+                    "On Hit": "KND",
+                    "CH": "KND"
+                },
+                {
+                    "Command": "RFF BT 3",
+                    "Orientation": "m(LFF)",
+                    "Damage": "27",
+                    "Frames": "14",
+                    "On Block": "-13",
+                    "On Hit": "JG",
+                    "CH": "JG"
+                },
+                {
+                    "Command": "RFF BT 4",
+                    "Orientation": "m(RFF)",
+                    "Damage": "21",
+                    "Frames": "20 RBT",
+                    "On Block": "-9",
+                    "On Hit": "+2",
+                    "CH": "+2"
+                },
+                {
+                    "Command": "RFF BT 4, 3",
+                    "Orientation": "m, m",
+                    "Damage": "21,27",
+                    "Frames": "20",
+                    "On Block": "-5~-1",
+                    "On Hit": "+6~+10 OC (KND)",
+                    "CH": "KND"
+                },
+                {
+                    "Command": "RFF BT d+3",
+                    "Orientation": "l (TC)(LFF)",
+                    "Damage": "27",
+                    "Frames": "18 RC",
+                    "On Block": "-13",
+                    "On Hit": "-2",
+                    "CH": "JG"
+                },
+                {
+                    "Command": "f+3 (to LFS)",
+                    "Orientation": "(LFS)",
+                    "Damage": "",
+                    "Frames": "18",
+                    "On Block": "",
+                    "On Hit": "",
+                    "CH": ""
+                },
+                {
+                    "Command": "LFS 3+4",
+                    "Orientation": "(RFS)",
+                    "Damage": "",
+                    "Frames": "18",
+                    "On Block": "",
+                    "On Hit": "",
+                    "CH": ""
+                },
+                {
+                    "Command": "LFS 1",
+                    "Orientation": "h(LFF)",
+                    "Damage": "9",
+                    "Frames": "13",
+                    "On Block": "+5",
+                    "On Hit": "+7",
+                    "CH": "+7"
+                },
+                {
+                    "Command": "LFS 2",
+                    "Orientation": "m(RFF)",
+                    "Damage": "20",
+                    "Frames": "16",
+                    "On Block": "-2",
+                    "On Hit": "+9",
+                    "CH": "+9"
+                },
+                {
+                    "Command": "LFS 3",
+                    "Orientation": "m(LFF)",
+                    "Damage": "16",
+                    "Frames": "14",
+                    "On Block": "-13",
+                    "On Hit": "-2",
+                    "CH": "-2"
+                },
+                {
+                    "Command": "LFS 3, 3",
+                    "Orientation": "m, m(LFF)",
+                    "Damage": "16,20",
+                    "Frames": "14",
+                    "On Block": "-14",
+                    "On Hit": "KND",
+                    "CH": "KND"
+                },
+                {
+                    "Command": "LFS 3, F",
+                    "Orientation": "m, (LFS)",
+                    "Damage": "16",
+                    "Frames": "14",
+                    "On Block": "+2",
+                    "On Hit": "+13 GB",
+                    "CH": "+13"
+                },
+                {
+                    "Command": "LFS 3, 4",
+                    "Orientation": "m, h, (RFS)",
+                    "Damage": "16,20",
+                    "Frames": "14",
+                    "On Block": "+9",
+                    "On Hit": "+20 GB",
+                    "CH": "+20"
+                },
+                {
+                    "Command": "LFS 3, d/f or f+4",
+                    "Orientation": "m, h(LFF)",
+                    "Damage": "16,33",
+                    "Frames": "14",
+                    "On Block": "-2~-1 OS",
+                    "On Hit": "KND",
+                    "CH": "KND"
+                },
+                {
+                    "Command": "LFS 4",
+                    "Orientation": "h (TJ), (RFS)",
+                    "Damage": "32",
+                    "Frames": "14",
+                    "On Block": "+2",
+                    "On Hit": "KND",
+                    "CH": "KND"
+                },
+                {
+                    "Command": "LFS 1+4",
+                    "Orientation": "! (TJ)(LFF)",
+                    "Damage": "54",
+                    "Frames": "67~68",
+                    "On Block": "KND",
+                    "On Hit": "KND",
+                    "CH": "KND"
+                },
+                {
+                    "Command": "LFS 1+4, b, b (Cancel)",
+                    "Orientation": "(LFF)",
+                    "Damage": "",
+                    "Frames": "67~68",
+                    "On Block": "",
+                    "On Hit": "",
+                    "CH": ""
+                },
+                {
+                    "Command": "LFS f+3",
+                    "Orientation": "hh, (LFS)",
+                    "Damage": "10,13",
+                    "Frames": "8,18",
+                    "On Block": "+1",
+                    "On Hit": "+3",
+                    "CH": "+7"
+                },
+                {
+                    "Command": "LFS f+3, 3",
+                    "Orientation": "hh, h(LFF)",
+                    "Damage": "10,13,16",
+                    "Frames": "8,18",
+                    "On Block": "-6",
+                    "On Hit": "JG",
+                    "CH": "JG"
+                },
+                {
+                    "Command": "LFS f+4",
+                    "Orientation": "m(RFF)",
+                    "Damage": "22",
+                    "Frames": "16",
+                    "On Block": "-7",
+                    "On Hit": "+1",
+                    "CH": "+4"
+                },
+                {
+                    "Command": "LFS f+4, 3",
+                    "Orientation": "m, h (TJ)(RFF)",
+                    "Damage": "22,28",
+                    "Frames": "16",
+                    "On Block": "+3",
+                    "On Hit": "KND",
+                    "CH": "KND"
+                },
+                {
+                    "Command": "LFS d/f+3",
+                    "Orientation": "m(RFF)",
+                    "Damage": "22",
+                    "Frames": "17~18",
+                    "On Block": "0~+1",
+                    "On Hit": "+7~+8 OC +20GS(+14)",
+                    "CH": "KND"
+                },
+                {
+                    "Command": "LFS d+3",
+                    "Orientation": "l(LFF)",
+                    "Damage": "9",
+                    "Frames": "16",
+                    "On Block": "-17",
+                    "On Hit": "-6",
+                    "CH": "-6"
+                },
+                {
+                    "Command": "LFS d+3, 4",
+                    "Orientation": "l, h, (RFS)",
+                    "Damage": "9,13",
+                    "Frames": "16",
+                    "On Block": "+8~+10",
+                    "On Hit": "+14~+16 GB",
+                    "CH": "+19~+21"
+                },
+                {
+                    "Command": "LFS d or d/f+4",
+                    "Orientation": "l (TC)(LFF)",
+                    "Damage": "20",
+                    "Frames": "25 RC",
+                    "On Block": "-23",
+                    "On Hit": "JG",
+                    "CH": "JG"
+                },
+                {
+                    "Command": "LFS d/b+3",
+                    "Orientation": "l (TC)(LFF)",
+                    "Damage": "18",
+                    "Frames": "18 RC",
+                    "On Block": "-11",
+                    "On Hit": "0",
+                    "CH": "KND"
+                },
+                {
+                    "Command": "LFS d/b+4",
+                    "Orientation": "l(RFF)",
+                    "Damage": "22",
+                    "Frames": "20",
+                    "On Block": "-12",
+                    "On Hit": "+1",
+                    "CH": "KND"
+                },
+                {
+                    "Command": "LFS b+3",
+                    "Orientation": "m (TJ)(RFF)",
+                    "Damage": "31",
+                    "Frames": "20",
+                    "On Block": "-10",
+                    "On Hit": "KND",
+                    "CH": "KND"
+                },
+                {
+                    "Command": "LFS b+4",
+                    "Orientation": "m(RFF)",
+                    "Damage": "28",
+                    "Frames": "16",
+                    "On Block": "-8",
+                    "On Hit": "+7",
+                    "CH": "+25(KND)"
+                },
+                {
+                    "Command": "LFS u/f+3",
+                    "Orientation": "m (TJ)(LFF)",
+                    "Damage": "17",
+                    "Frames": "28~29",
+                    "On Block": "-6~-5",
+                    "On Hit": "KND",
+                    "CH": "KND"
+                },
+                {
+                    "Command": "LFS u/f+3, 4",
+                    "Orientation": "m (TJ), m(LFF)",
+                    "Damage": "17,16",
+                    "Frames": "28~29",
+                    "On Block": "-8",
+                    "On Hit": "JG",
+                    "CH": "JG"
+                },
+                {
+                    "Command": "LFS u/f+3, 4, 3",
+                    "Orientation": "m (TJ), m, h(LFF)",
+                    "Damage": "17,16,29",
+                    "Frames": "28~29",
+                    "On Block": "",
+                    "On Hit": "KND",
+                    "CH": ""
+                },
+                {
+                    "Command": "LFS u/f+4",
+                    "Orientation": "m (TJ)(LFF)",
+                    "Damage": "24",
+                    "Frames": "23",
+                    "On Block": "-13",
+                    "On Hit": "JG",
+                    "CH": "JG"
+                },
+                {
+                    "Command": "LFS u/f+3+4",
+                    "Orientation": "mh (TJ)(LFF)",
+                    "Damage": "13,10",
+                    "Frames": "14,25",
+                    "On Block": "-10",
+                    "On Hit": "+1",
+                    "CH": "+1"
+                },
+                {
+                    "Command": "LFS u/f+3+4, 4",
+                    "Orientation": "mh (TJ), m (TJ)(LFF)",
+                    "Damage": "13,10,17",
+                    "Frames": "14,25",
+                    "On Block": "-13",
+                    "On Hit": "+1",
+                    "CH": "+1"
+                },
+                {
+                    "Command": "LFS f",
+                    "Orientation": "(LFS)",
+                    "Damage": "",
+                    "Frames": "14,25",
+                    "On Block": "",
+                    "On Hit": "",
+                    "CH": ""
+                },
+                {
+                    "Command": "LFS b",
+                    "Orientation": "(LFS)",
+                    "Damage": "",
+                    "Frames": "14,25",
+                    "On Block": "",
+                    "On Hit": "",
+                    "CH": ""
+                },
+                {
+                    "Command": "LFS u",
+                    "Orientation": "(LFS)",
+                    "Damage": "",
+                    "Frames": "14,25",
+                    "On Block": "",
+                    "On Hit": "",
+                    "CH": ""
+                },
+                {
+                    "Command": "LFS d",
+                    "Orientation": "(LFS)",
+                    "Damage": "",
+                    "Frames": "14,25",
+                    "On Block": "",
+                    "On Hit": "",
+                    "CH": ""
+                },
+                {
+                    "Command": "f, n+4",
+                    "Orientation": "(Special)",
+                    "Damage": "",
+                    "Frames": "14,25",
+                    "On Block": "",
+                    "On Hit": "",
+                    "CH": ""
+                },
+                {
+                    "Command": "RFS 3+4",
+                    "Orientation": "(LFS)",
+                    "Damage": "",
+                    "Frames": "14,25",
+                    "On Block": "",
+                    "On Hit": "",
+                    "CH": ""
+                },
+                {
+                    "Command": "RFS 1",
+                    "Orientation": "m(LFF)",
+                    "Damage": "18",
+                    "Frames": "16",
+                    "On Block": "-2",
+                    "On Hit": "+9",
+                    "CH": "+9"
+                },
+                {
+                    "Command": "RFS 2",
+                    "Orientation": "h(RFF)",
+                    "Damage": "9",
+                    "Frames": "13",
+                    "On Block": "+5",
+                    "On Hit": "+7",
+                    "CH": "+7"
+                },
+                {
+                    "Command": "RFS 2, 1",
+                    "Orientation": "h, h(RFF)",
+                    "Damage": "9,13",
+                    "Frames": "13",
+                    "On Block": "0",
+                    "On Hit": "+6",
+                    "CH": "+6"
+                },
+                {
+                    "Command": "RFS 2, 1, 1",
+                    "Orientation": "h, h, m(LFF)",
+                    "Damage": "9,13,16",
+                    "Frames": "13",
+                    "On Block": "-9",
+                    "On Hit": "+2",
+                    "CH": "+2"
+                },
+                {
+                    "Command": "RFS 2, 3",
+                    "Orientation": "h, h(LFF)",
+                    "Damage": "9,31",
+                    "Frames": "13",
+                    "On Block": "-7",
+                    "On Hit": "+4",
+                    "CH": "+25(SH)"
+                },
+                {
+                    "Command": "RFS 2, 4",
+                    "Orientation": "h, h(RFF)",
+                    "Damage": "9,16",
+                    "Frames": "13",
+                    "On Block": "-8",
+                    "On Hit": "+3",
+                    "CH": "+3"
+                },
+                {
+                    "Command": "RFS 2, 4, b or f",
+                    "Orientation": "h, h, (RFS)",
+                    "Damage": "9,16",
+                    "Frames": "13",
+                    "On Block": "+7",
+                    "On Hit": "+18 GB",
+                    "CH": "+18 GB"
+                },
+                {
+                    "Command": "RFS 2, 4, d or u",
+                    "Orientation": "h, h, (RFS)",
+                    "Damage": "9,16",
+                    "Frames": "13",
+                    "On Block": "+6",
+                    "On Hit": "+17 GB",
+                    "CH": "+17 GB"
+                },
+                {
+                    "Command": "RFS 2, 4, 3",
+                    "Orientation": "h, h, m, (RFF)",
+                    "Damage": "9,16,27",
+                    "Frames": "13",
+                    "On Block": "-15~-9 OC",
+                    "On Hit": "KND",
+                    "CH": "KND"
+                },
+                {
+                    "Command": "RFS 2, 4, 4",
+                    "Orientation": "h, h, h(LFF)",
+                    "Damage": "9,16,32",
+                    "Frames": "13",
+                    "On Block": "-4",
+                    "On Hit": "KND",
+                    "CH": "KND"
+                },
+                {
+                    "Command": "RFS 2, b+4",
+                    "Orientation": "h, h (TC)(LFF)",
+                    "Damage": "9,36",
+                    "Frames": "13",
+                    "On Block": "-11",
+                    "On Hit": "KND",
+                    "CH": "KND"
+                },
+                {
+                    "Command": "RFS 3",
+                    "Orientation": "h (TJ), (LFS)",
+                    "Damage": "32",
+                    "Frames": "14",
+                    "On Block": "+2",
+                    "On Hit": "KND",
+                    "CH": "KND"
+                },
+                {
+                    "Command": "RFS 4",
+                    "Orientation": "m(RFF)",
+                    "Damage": "27",
+                    "Frames": "14",
+                    "On Block": "-14",
+                    "On Hit": "KND",
+                    "CH": "FS(+4) 17"
+                },
+                {
+                    "Command": "RFS f+3",
+                    "Orientation": "m(LFF)",
+                    "Damage": "22",
+                    "Frames": "16",
+                    "On Block": "-7",
+                    "On Hit": "+1",
+                    "CH": "+4"
+                },
+                {
+                    "Command": "RFS f+3, 4",
+                    "Orientation": "m, h (TJ)(LFF)",
+                    "Damage": "22,28",
+                    "Frames": "16",
+                    "On Block": "+3",
+                    "On Hit": "KND",
+                    "CH": "KND"
+                },
+                {
+                    "Command": "RFS f+4",
+                    "Orientation": "hh, (RFS)",
+                    "Damage": "10,13",
+                    "Frames": "8,18",
+                    "On Block": "+1",
+                    "On Hit": "+3",
+                    "CH": "+7"
+                },
+                {
+                    "Command": "RFS f+4, 4",
+                    "Orientation": "hh, h(RFF)",
+                    "Damage": "10,13,16",
+                    "Frames": "8,18",
+                    "On Block": "-6",
+                    "On Hit": "JG",
+                    "CH": "JG"
+                },
+                {
+                    "Command": "RFS d/f+4",
+                    "Orientation": "m(LFF)",
+                    "Damage": "18",
+                    "Frames": "17~18",
+                    "On Block": "-6~-5",
+                    "On Hit": "KND",
+                    "CH": "KND"
+                },
+                {
+                    "Command": "RFS d/b or d or d/f+3",
+                    "Orientation": "l (TC)(LFF)",
+                    "Damage": "20",
+                    "Frames": "25 RC",
+                    "On Block": "-23",
+                    "On Hit": "JG",
+                    "CH": "JG"
+                },
+                {
+                    "Command": "RFS d+4",
+                    "Orientation": "l(LFF)",
+                    "Damage": "21",
+                    "Frames": "20",
+                    "On Block": "-13",
+                    "On Hit": "-2",
+                    "CH": "+3"
+                },
+                {
+                    "Command": "RFS d+4, 3",
+                    "Orientation": "l, m(LFF)",
+                    "Damage": "21,27",
+                    "Frames": "20",
+                    "On Block": "-10",
+                    "On Hit": "KND",
+                    "CH": "KND"
+                },
+                {
+                    "Command": "RFS d+4, 4",
+                    "Orientation": "l, h(RFF)",
+                    "Damage": "19,29",
+                    "Frames": "20",
+                    "On Block": "+9",
+                    "On Hit": "KND",
+                    "CH": "KND"
+                },
+                {
+                    "Command": "RFS d/b+4",
+                    "Orientation": "l (TC)(LFF)",
+                    "Damage": "18",
+                    "Frames": "18 RC",
+                    "On Block": "-11",
+                    "On Hit": "0",
+                    "CH": "KND"
+                },
+                {
+                    "Command": "RFS b+3",
+                    "Orientation": "m(LFF)",
+                    "Damage": "28",
+                    "Frames": "16",
+                    "On Block": "-15",
+                    "On Hit": "JG",
+                    "CH": "JG"
+                },
+                {
+                    "Command": "RFS b+4",
+                    "Orientation": "m (TJ)(LFF)",
+                    "Damage": "31",
+                    "Frames": "20",
+                    "On Block": "-10",
+                    "On Hit": "KND",
+                    "CH": "KND"
+                },
+                {
+                    "Command": "RFS f",
+                    "Orientation": "(RFS)",
+                    "Damage": "",
+                    "Frames": "20",
+                    "On Block": "",
+                    "On Hit": "",
+                    "CH": ""
+                },
+                {
+                    "Command": "RFS b",
+                    "Orientation": "(RFS)",
+                    "Damage": "",
+                    "Frames": "20",
+                    "On Block": "",
+                    "On Hit": "",
+                    "CH": ""
+                },
+                {
+                    "Command": "RFS u",
+                    "Orientation": "(RFS)",
+                    "Damage": "",
+                    "Frames": "20",
+                    "On Block": "",
+                    "On Hit": "",
+                    "CH": ""
+                },
+                {
+                    "Command": "RFS d",
+                    "Orientation": "(RFS)",
+                    "Damage": "",
+                    "Frames": "20",
+                    "On Block": "",
+                    "On Hit": "",
+                    "CH": ""
+                }
+            ]
+        }
+    ]
+}
