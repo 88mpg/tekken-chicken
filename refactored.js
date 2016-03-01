@@ -1,9 +1,9 @@
 jQuery(function ($) {
 
     'use strict';
-	
+
 	var App = {
-		
+
 		init: function () {
 			this.initTable();
 			this.cacheElements();
@@ -125,7 +125,7 @@ jQuery(function ($) {
 
 		processJSON: function (json) {
 	        var dataSource = [],
-	            data = JSON.parse(json),
+	            data = typeof json === 'string' ? JSON.parse(json) : json,
             	attacks = data.FrameData[0].attacks;
 
 	        for (var i = 0; i < attacks.length; i++) {
