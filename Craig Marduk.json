@@ -1,0 +1,1067 @@
+{
+    "Name": "Craig Marduk",
+    "FrameData": [
+        {
+            "attacksName": "Standing",
+            "attacks": [
+                {
+                    "Command": "1",
+                    "Orientation": "h",
+                    "Damage": "9",
+                    "Frames": "10",
+                    "On Block": "1",
+                    "On Hit": "8",
+                    "CH": "8"
+                },
+                {
+                    "Command": "1, 2",
+                    "Orientation": "h, h",
+                    "Damage": "9,16",
+                    "Frames": "10",
+                    "On Block": "-1",
+                    "On Hit": "5",
+                    "CH": "5"
+                },
+                {
+                    "Command": "1, 2, 3",
+                    "Orientation": "h, h, m",
+                    "Damage": "9,16,16",
+                    "Frames": "10",
+                    "On Block": "-16",
+                    "On Hit": "-5",
+                    "CH": "-5"
+                },
+                {
+                    "Command": "1, 2, 3, 1+2",
+                    "Orientation": "h, h, m, h",
+                    "Damage": "9,16,16,37",
+                    "Frames": "10",
+                    "On Block": "0 OC",
+                    "On Hit": "+4 OC",
+                    "CH": "+4 OC",
+					"Notes": "bound!"
+                },
+                {
+                    "Command": "1, 2, 3+4",
+                    "Orientation": "h, h, (VTS)",
+                    "Damage": "9,16",
+                    "Frames": "10",
+                    "On Block": "-4",
+                    "On Hit": "2",
+                    "CH": "2"
+                },
+                {
+                    "Command": "1, 2, 3+4, 3+4 (Cancel)",
+                    "Orientation": "h, h, (VTS)",
+                    "Damage": "9,16",
+                    "Frames": "10",
+                    "On Block": "-2",
+                    "On Hit": "4",
+                    "CH": "4"
+                },
+                {
+                    "Command": "1, 2, f+1",
+                    "Orientation": "h, h, h",
+                    "Damage": "9,16,28",
+                    "Frames": "10",
+                    "On Block": "4",
+                    "On Hit": "6",
+                    "CH": "KND"
+                },
+                {
+                    "Command": "1, d+2",
+                    "Orientation": "h, m",
+                    "Damage": "9,17",
+                    "Frames": "10",
+                    "On Block": "-9",
+                    "On Hit": "7",
+                    "CH": "7",
+					"Notes": "10frame jab punisher"
+                },
+                {
+                    "Command": "2",
+                    "Orientation": "h",
+                    "Damage": "13",
+                    "Frames": "10",
+                    "On Block": "0",
+                    "On Hit": "8",
+                    "CH": "8"
+                },
+                {
+                    "Command": "2, 1",
+                    "Orientation": "h, h",
+                    "Damage": "13,16",
+                    "Frames": "10",
+                    "On Block": "3",
+                    "On Hit": "5",
+                    "CH": "5",
+					"Notes": "10frame jab punisher"
+					"Notes": "10frame jab punisher"
+                },
+                {
+                    "Command": "2, d+1+2",
+                    "Orientation": "h, m (TC)",
+                    "Damage": "13,32",
+                    "Frames": "10",
+                    "On Block": "-12",
+                    "On Hit": "JG",
+                    "CH": "JG"
+                },
+                {
+                    "Command": "1+2",
+                    "Orientation": "m",
+                    "Damage": "0",
+                    "Frames": "15",
+                    "On Block": "-8?",
+                    "On Hit": "3",
+                    "CH": "16"
+                },
+                {
+                    "Command": "f+2",
+                    "Orientation": "h",
+                    "Damage": "27",
+                    "Frames": "16",
+                    "On Block": "-7",
+                    "On Hit": "7",
+                    "CH": "CS"
+                },
+                {
+                    "Command": "f+2, 1",
+                    "Orientation": "h, h",
+                    "Damage": "27,33",
+                    "Frames": "16",
+                    "On Block": "-7",
+                    "On Hit": "CS",
+                    "CH": "CS"
+                },
+                {
+                    "Command": "f+2, d+1",
+                    "Orientation": "h, m",
+                    "Damage": "27,22",
+                    "Frames": "16",
+                    "On Block": "-13~-12 OC",
+                    "On Hit": "+2~+3? OC",
+                    "CH": "+2~+3? OC",
+					"Notes": "bound!"
+                },
+                {
+                    "Command": "f+2, d+1, 2",
+                    "Orientation": "h, m, m",
+                    "Damage": "27,22,21",
+                    "Frames": "16",
+                    "On Block": "-15",
+                    "On Hit": "JG",
+                    "CH": "JG"
+                },
+                {
+                    "Command": "f+3",
+                    "Orientation": "m",
+                    "Damage": "22",
+                    "Frames": "23",
+                    "On Block": "-8",
+                    "On Hit": "5",
+                    "CH": "JG"
+                },
+                {
+                    "Command": "f+3, 2",
+                    "Orientation": "m, m",
+                    "Damage": "22,27",
+                    "Frames": "23",
+                    "On Block": "-9",
+                    "On Hit": "+6 OC",
+                    "CH": "+6 OC",
+					"Notes": "bound!"
+                },
+                {
+                    "Command": "f+4",
+                    "Orientation": "m",
+                    "Damage": "27",
+                    "Frames": "19~20",
+                    "On Block": "-12~-11 OC",
+                    "On Hit": "+1~+2 OC",
+                    "CH": "KND"
+                },
+                {
+                    "Command": "f+1+2",
+                    "Orientation": "mm",
+                    "Damage": "18,21",
+                    "Frames": "15,",
+                    "On Block": "-12",
+                    "On Hit": "+4,5?",
+                    "CH": "+4,5?",
+					"Notes": "15 frame punisher"
+                },
+                {
+                    "Command": "f+1+2, 2",
+                    "Orientation": "mm, m",
+                    "Damage": "18,21,27",
+                    "Frames": "15,",
+                    "On Block": "-14",
+                    "On Hit": "KND",
+                    "CH": "CS"
+                },
+                {
+                    "Command": "f+3+4",
+                    "Orientation": "h!",
+                    "Damage": "40",
+                    "Frames": "32",
+                    "On Block": "KND",
+                    "On Hit": "KND",
+                    "CH": "KND"
+                },
+                {
+                    "Command": "f+3+4, 3+4 (Cancel)",
+                    "Orientation": "(VTS)",
+                    "Damage": "",
+                    "Frames": "32",
+                    "On Block": "",
+                    "On Hit": "",
+                    "CH": ""
+                },
+                {
+                    "Command": "f+1+4",
+                    "Orientation": "m (TJ)",
+                    "Damage": "33",
+                    "Frames": "21~34 RG",
+                    "On Block": "-14~-1",
+                    "On Hit": "KND",
+                    "CH": "KND"
+                },
+                {
+                    "Command": "d/f+1",
+                    "Orientation": "m",
+                    "Damage": "20",
+                    "Frames": "16~17",
+                    "On Block": "-12~-11",
+                    "On Hit": "JG",
+                    "CH": "JG",
+					"Notes": "16 frame launcher punisher"
+                },
+                {
+                    "Command": "d/f+2",
+                    "Orientation": "m",
+                    "Damage": "21",
+                    "Frames": "15",
+                    "On Block": "-7",
+                    "On Hit": "6",
+                    "CH": "6"
+                },
+                {
+                    "Command": "d/f+2, 1",
+                    "Orientation": "m, m",
+                    "Damage": "21,28",
+                    "Frames": "15",
+                    "On Block": "-13",
+                    "On Hit": "KND",
+                    "CH": "KND"
+                },
+                {
+                    "Command": "d/f+3",
+                    "Orientation": "m",
+                    "Damage": "17",
+                    "Frames": "17",
+                    "On Block": "-10",
+                    "On Hit": "2",
+                    "CH": "2"
+                },
+                {
+                    "Command": "d/f+3, 1",
+                    "Orientation": "m, h",
+                    "Damage": "17,6",
+                    "Frames": "17",
+                    "On Block": "2",
+                    "On Hit": "5",
+                    "CH": "5",
+					"Notes": "17 frame launcher punisher"
+                },
+                {
+                    "Command": "d/f+3, 1, 2",
+                    "Orientation": "m, h, h",
+                    "Damage": "17,6,13",
+                    "Frames": "17",
+                    "On Block": "-1",
+                    "On Hit": "5",
+                    "CH": "5"
+                },
+                {
+                    "Command": "d/f+3, 1, 2, 3",
+                    "Orientation": "m, h, h, m",
+                    "Damage": "17,6,13,16",
+                    "Frames": "17",
+                    "On Block": "-16",
+                    "On Hit": "-5",
+                    "CH": "-5"
+                },
+                {
+                    "Command": "d/f+3, 1, 2, 3, 1+2",
+                    "Orientation": "m, h, h, m, h",
+                    "Damage": "17,6,13,16,37",
+                    "Frames": "17",
+                    "On Block": "0 OC",
+                    "On Hit": "+4 OC",
+                    "CH": "+4 OC",
+					"Notes": "bound!"
+                },
+                {
+                    "Command": "d/f+3, 1, 2, 3+4",
+                    "Orientation": "m, h, h, (VTS)",
+                    "Damage": "17,6,13",
+                    "Frames": "17",
+                    "On Block": "-6",
+                    "On Hit": "0",
+                    "CH": "0"
+                },
+                {
+                    "Command": "d/f+3, 1, 2, 3+4, 3+4 (Cancel)",
+                    "Orientation": "m, h, h, (VTS)",
+                    "Damage": "17,6,13",
+                    "Frames": "17",
+                    "On Block": "-2",
+                    "On Hit": "4",
+                    "CH": "4"
+                },
+                {
+                    "Command": "d/f+3, 1, 2, f+1",
+                    "Orientation": "m, h, h, h",
+                    "Damage": "17,6,13,28",
+                    "Frames": "17",
+                    "On Block": "4",
+                    "On Hit": "6",
+                    "CH": "KND"
+                },
+                {
+                    "Command": "d/f+3, 1, d+2",
+                    "Orientation": "m, h, m",
+                    "Damage": "17,6,17",
+                    "Frames": "17",
+                    "On Block": "-9",
+                    "On Hit": "7",
+                    "CH": "7"
+                },
+                {
+                    "Command": "d/f+3, 1+2",
+                    "Orientation": "m, h",
+                    "Damage": "17,37",
+                    "Frames": "17",
+                    "On Block": "0 OC",
+                    "On Hit": "+4 OC",
+                    "CH": "+4 OC",
+					"Notes": "bound!"
+                },
+                {
+                    "Command": "d/f+3, d/f+1",
+                    "Orientation": "m, m",
+                    "Damage": "17,13",
+                    "Frames": "17",
+                    "On Block": "-13",
+                    "On Hit": "JG",
+                    "CH": "JG"
+                },
+                {
+                    "Command": "d/f+3, d/f+1, 2",
+                    "Orientation": "m, m, h",
+                    "Damage": "17,13,28",
+                    "Frames": "17",
+                    "On Block": "-3 OC",
+                    "On Hit": "-6 OC",
+                    "CH": "-6 OC"
+                },
+                {
+                    "Command": "d/f+4",
+                    "Orientation": "m",
+                    "Damage": "16",
+                    "Frames": "13~14",
+                    "On Block": "-9~-8",
+                    "On Hit": "+2~+3",
+                    "CH": "+2~+3"
+                },
+                {
+                    "Command": "d/f+4, 2",
+                    "Orientation": "m, m",
+                    "Damage": "16,27",
+                    "Frames": "13~14",
+                    "On Block": "-16?",
+                    "On Hit": "+4 OC",
+                    "CH": "KND",
+					"Notes": "13 frame while standing punisher bound!"
+                },
+                {
+                    "Command": "d/f+1+2",
+                    "Orientation": "m (TC)",
+                    "Damage": "31",
+                    "Frames": "17~19",
+                    "On Block": "-11~-9",
+                    "On Hit": "+3 OC~+5 OC",
+                    "CH": "+3 OC~+5 OC"
+                },
+                {
+                    "Command": "d+1",
+                    "Orientation": "m",
+                    "Damage": "27",
+                    "Frames": "18",
+                    "On Block": "0 OC",
+                    "On Hit": "+5? OC",
+                    "CH": "KND"
+                },
+                {
+                    "Command": "d+2",
+                    "Orientation": "m",
+                    "Damage": "20",
+                    "Frames": "16",
+                    "On Block": "-7 OC",
+                    "On Hit": "+7 OC",
+                    "CH": "+7 OC"
+                },
+                {
+                    "Command": "d+2, 4",
+                    "Orientation": "m, m",
+                    "Damage": "20,28",
+                    "Frames": "16",
+                    "On Block": "-9",
+                    "On Hit": "5",
+                    "CH": "CS"
+                },
+                {
+                    "Command": "d+3",
+                    "Orientation": "l",
+                    "Damage": "24",
+                    "Frames": "16",
+                    "On Block": "-12",
+                    "On Hit": "-1",
+                    "CH": "-1"
+                },
+                {
+                    "Command": "d+4",
+                    "Orientation": "l (TC)",
+                    "Damage": "21",
+                    "Frames": "14",
+                    "On Block": "-16",
+                    "On Hit": "-5",
+                    "CH": "-5"
+                },
+                {
+                    "Command": "d+1+2",
+                    "Orientation": "m",
+                    "Damage": "32",
+                    "Frames": "19",
+                    "On Block": "-12",
+                    "On Hit": "JG",
+                    "CH": "JG"
+                },
+                {
+                    "Command": "d/b+2",
+                    "Orientation": "m",
+                    "Damage": "27",
+                    "Frames": "16",
+                    "On Block": "-8?",
+                    "On Hit": "KND",
+                    "CH": "KND"
+                },
+                {
+                    "Command": "d/b+3",
+                    "Orientation": "l",
+                    "Damage": "13",
+                    "Frames": "18",
+                    "On Block": "-12",
+                    "On Hit": "-4",
+                    "CH": "4"
+                },
+                {
+                    "Command": "d/b+3, 1",
+                    "Orientation": "l, h",
+                    "Damage": "13,22",
+                    "Frames": "18",
+                    "On Block": "-6?",
+                    "On Hit": "8",
+                    "CH": "CS"
+                },
+                {
+                    "Command": "d/b+3, 1, 1",
+                    "Orientation": "l, h, m",
+                    "Damage": "13,22,32",
+                    "Frames": "18",
+                    "On Block": "-12",
+                    "On Hit": "KMUD",
+                    "CH": "KMUD"
+                },
+                {
+                    "Command": "d/b+3, 4",
+                    "Orientation": "l, m",
+                    "Damage": "13,21",
+                    "Frames": "18",
+                    "On Block": "-10",
+                    "On Hit": "6",
+                    "CH": "6"
+                },
+                {
+                    "Command": "d/b+4",
+                    "Orientation": "l",
+                    "Damage": "16",
+                    "Frames": "23 RG",
+                    "On Block": "-11",
+                    "On Hit": "JG",
+                    "CH": "KND(Throw)"
+                },
+                {
+                    "Command": "d/b+1+2",
+                    "Orientation": "m",
+                    "Damage": "31",
+                    "Frames": "26~27",
+                    "On Block": "-22~-21",
+                    "On Hit": "JG",
+                    "CH": "JG"
+                },
+                {
+                    "Command": "b+1",
+                    "Orientation": "m",
+                    "Damage": "22",
+                    "Frames": "21~22",
+                    "On Block": "-8 OC~-7 OC",
+                    "On Hit": "+2 OC~+3 OC",
+                    "CH": "KND"
+                },
+                {
+                    "Command": "b+1, 2",
+                    "Orientation": "m, m",
+                    "Damage": "22,13",
+                    "Frames": "21~22",
+                    "On Block": "-14 OC",
+                    "On Hit": "-5 OC",
+                    "CH": "KND"
+                },
+                {
+                    "Command": "b+2",
+                    "Orientation": "m",
+                    "Damage": "32",
+                    "Frames": "22",
+                    "On Block": "-9",
+                    "On Hit": "+2?",
+                    "CH": "CS",
+					"Notes": "homing tracks"
+                },
+                {
+                    "Command": "b+3",
+                    "Orientation": "m",
+                    "Damage": "35",
+                    "Frames": "21~22",
+                    "On Block": "-10~-9",
+                    "On Hit": "KND",
+                    "CH": "KND"
+                },
+                {
+                    "Command": "b+4",
+                    "Orientation": "m",
+                    "Damage": "27",
+                    "Frames": "14",
+                    "On Block": "-9",
+                    "On Hit": "2",
+                    "CH": "KND",
+					"Notes": "14 frame punisher"
+                },
+                {
+                    "Command": "b+1+2",
+                    "Orientation": "m",
+                    "Damage": "28",
+                    "Frames": "22~23 RC",
+                    "On Block": "-6 OC~-5 OC",
+                    "On Hit": "KND",
+                    "CH": "KND"
+                },
+                {
+                    "Command": "b+2+3",
+                    "Orientation": "!",
+                    "Damage": "94",
+                    "Frames": "80",
+                    "On Block": "KND",
+                    "On Hit": "KND",
+                    "CH": "KND"
+                },
+                {
+                    "Command": "b+2+3, b, b (Cancel)",
+                    "Orientation": "(Special)",
+                    "Damage": "",
+                    "Frames": "80",
+                    "On Block": "",
+                    "On Hit": "",
+                    "CH": ""
+                },
+                {
+                    "Command": "b+2+3, 1+2 (Cancel)",
+                    "Orientation": "(Special), !(Throw)",
+                    "Damage": "12",
+                    "Frames": "100 (106,126)",
+                    "On Block": "",
+                    "On Hit": "Throw(KND)",
+                    "CH": ""
+                },
+                {
+                    "Command": "u/b or u or u/f+3",
+                    "Orientation": "m (TJ)",
+                    "Damage": "33",
+                    "Frames": "20",
+                    "On Block": "-2",
+                    "On Hit": "KND",
+                    "CH": "JG"
+                },
+                {
+                    "Command": "u/b+4",
+                    "Orientation": "m (TJ)",
+                    "Damage": "18",
+                    "Frames": "23",
+                    "On Block": "-16",
+                    "On Hit": "KND",
+                    "CH": "KND"
+                },
+                {
+                    "Command": "u or u/f+4",
+                    "Orientation": "m (TJ)",
+                    "Damage": "24",
+                    "Frames": "23",
+                    "On Block": "-9",
+                    "On Hit": "KND",
+                    "CH": "KND"
+                },
+                {
+                    "Command": "u/f+1+2",
+                    "Orientation": "h",
+                    "Damage": "28",
+                    "Frames": "17",
+                    "On Block": "-6",
+                    "On Hit": "CS",
+                    "CH": "CS",
+					"Notes": "17 frame launcher punisher"
+                },
+                {
+                    "Command": "u/b or u or u/f+3+4",
+                    "Orientation": "m (TJ)",
+                    "Damage": "33",
+                    "Frames": "31~35",
+                    "On Block": "-3 OC~+1 OC",
+                    "On Hit": "+7 OC~+11 OC",
+                    "CH": "KND"
+                },
+                {
+                    "Command": "f, F+2",
+                    "Orientation": "h",
+                    "Damage": "28",
+                    "Frames": "11(12~)",
+                    "On Block": "-1",
+                    "On Hit": "KND",
+                    "CH": "KND",
+					"Notes": "11 or 12 frame punisher"
+                },
+                {
+                    "Command": "f, F+4",
+                    "Orientation": "m",
+                    "Damage": "35",
+                    "Frames": "18~19 (19~)",
+                    "On Block": "-10~-9",
+                    "On Hit": "KND",
+                    "CH": "KND",
+					"Notes": "homing tracks"
+                },
+                {
+                    "Command": "b, B+1+2",
+                    "Orientation": "m",
+                    "Damage": "33",
+                    "Frames": "19(20~)",
+                    "On Block": "-9",
+                    "On Hit": "KND",
+                    "CH": "KND"
+                },
+                {
+                    "Command": "qcf+1",
+                    "Orientation": "m",
+                    "Damage": "28",
+                    "Frames": "18~19 (18~)",
+                    "On Block": "-10~-9",
+                    "On Hit": "JG",
+                    "CH": "JG"
+                },
+                {
+                    "Command": "qcf+1, 2",
+                    "Orientation": "m, m",
+                    "Damage": "28,32",
+                    "Frames": "18~19 (18~)",
+                    "On Block": "-7?",
+                    "On Hit": "KFUD",
+                    "CH": "KND"
+                },
+                {
+                    "Command": "qcf+1, 2*",
+                    "Orientation": "m, m",
+                    "Damage": "28,54",
+                    "Frames": "18~19 (18~)",
+                    "On Block": "+22? GB",
+                    "On Hit": "KND",
+                    "CH": "KND"
+                },
+                {
+                    "Command": "qcf+2",
+                    "Orientation": "l (TC)",
+                    "Damage": "27",
+                    "Frames": "24~25 (24~)",
+                    "On Block": "-12~-11",
+                    "On Hit": "+5~+6",
+                    "CH": "+5~+6"
+                },
+                {
+                    "Command": "f, f, f+3 or WR+3",
+                    "Orientation": "m (TJ)",
+                    "Damage": "40",
+                    "Frames": "32(35~)",
+                    "On Block": "6",
+                    "On Hit": "KND",
+                    "CH": "KND"
+                },
+                {
+                    "Command": "WS+1",
+                    "Orientation": "m",
+                    "Damage": "18",
+                    "Frames": "11",
+                    "On Block": "-7?",
+                    "On Hit": "3",
+                    "CH": "3",
+					"Notes": "11 frame while standing punisher"
+                },
+                {
+                    "Command": "WS+1, 3+4",
+                    "Orientation": "m, (VTS)",
+                    "Damage": "18",
+                    "Frames": "11",
+                    "On Block": "-7",
+                    "On Hit": "3",
+                    "CH": "3"
+                },
+                {
+                    "Command": "WS+1, 2",
+                    "Orientation": "m, h",
+                    "Damage": "18,24",
+                    "Frames": "11",
+                    "On Block": "-7",
+                    "On Hit": "KND",
+                    "CH": "CS"
+                },
+                {
+                    "Command": "WS+2",
+                    "Orientation": "m",
+                    "Damage": "29",
+                    "Frames": "19",
+                    "On Block": "-8",
+                    "On Hit": "KND",
+                    "CH": "CS"
+                },
+                {
+                    "Command": "WS+3",
+                    "Orientation": "m",
+                    "Damage": "27",
+                    "Frames": "18~19",
+                    "On Block": "-13~-12",
+                    "On Hit": "JG",
+                    "CH": "JG"
+                },
+                {
+                    "Command": "WS+4",
+                    "Orientation": "m",
+                    "Damage": "28",
+                    "Frames": "13",
+                    "On Block": "-7",
+                    "On Hit": "KND",
+                    "CH": "CS",
+					"Notes": "13 frame launcher punisher"
+                },
+                {
+                    "Command": "WS+1+2",
+                    "Orientation": "m",
+                    "Damage": "16",
+                    "Frames": "10~11",
+                    "On Block": "-4~-3",
+                    "On Hit": "+7~+8",
+                    "CH": "+7~+8",
+					"Notes": "10 frame while standing punisher"
+                },
+                {
+                    "Command": "FC+1+2",
+                    "Orientation": "m(, (throw))",
+                    "Damage": "33(,10)",
+                    "Frames": "21",
+                    "On Block": "-4",
+                    "On Hit": "Throw(KND)",
+                    "CH": "Throw(KND)"
+                },
+                {
+                    "Command": "FC+1+2 (Far)",
+                    "Orientation": "m",
+                    "Damage": "33",
+                    "Frames": "22",
+                    "On Block": "-3",
+                    "On Hit": "8",
+                    "CH": "8"
+                },
+                {
+                    "Command": "FC+d/f+4",
+                    "Orientation": "l (TC)",
+                    "Damage": "25",
+                    "Frames": "21 RC",
+                    "On Block": "-26",
+                    "On Hit": "8",
+                    "CH": "JG"
+                },
+                {
+                    "Command": "SS+2",
+                    "Orientation": "m",
+                    "Damage": "24",
+                    "Frames": "21(30~)",
+                    "On Block": "-3",
+                    "On Hit": "0 OC",
+                    "CH": "0 OC"
+                },
+                {
+                    "Command": "SS+2, 3+4",
+                    "Orientation": "m, (VTS)",
+                    "Damage": "24",
+                    "Frames": "21(30~)",
+                    "On Block": "2",
+                    "On Hit": "+5 OC",
+                    "CH": "+5 OC"
+                },
+                {
+                    "Command": "SS+4",
+                    "Orientation": "m",
+                    "Damage": "32",
+                    "Frames": "21(30~)",
+                    "On Block": "-6",
+                    "On Hit": "KFUD",
+                    "CH": "KND"
+                },
+                {
+                    "Command": "SS+1+2",
+                    "Orientation": "m",
+                    "Damage": "33",
+                    "Frames": "19?(28~)",
+                    "On Block": "1",
+                    "On Hit": "KND",
+                    "CH": "KND",
+					"Notes": "bound!"
+                },
+                {
+                    "Command": "Face down Grounded 2",
+                    "Orientation": "m",
+                    "Damage": "31",
+                    "Frames": "20",
+                    "On Block": "-7",
+                    "On Hit": "4",
+                    "CH": "4"
+                },
+                {
+                    "Command": "Face down Grounded d+2",
+                    "Orientation": "l",
+                    "Damage": "24",
+                    "Frames": "15 RC",
+                    "On Block": "-25?",
+                    "On Hit": "JG",
+                    "CH": "JG"
+                },
+                {
+                    "Command": "Opponent Down d/b+4",
+                    "Orientation": "l(On grounded opponent)",
+                    "Damage": "22",
+                    "Frames": "20",
+                    "On Block": "-15",
+                    "On Hit": "-6",
+                    "CH": "-6"
+                },
+                {
+                    "Command": "3+4 or From certain moves (to VTS)",
+                    "Orientation": "(VTS)",
+                    "Damage": "",
+                    "Frames": "20",
+                    "On Block": "",
+                    "On Hit": "",
+                    "CH": ""
+                },
+                {
+                    "Command": "d/b or b+3+4",
+                    "Orientation": "(Special)",
+                    "Damage": "",
+                    "Frames": "20",
+                    "On Block": "",
+                    "On Hit": "",
+                    "CH": ""
+                },
+                {
+                    "Command": "d/f+3+4",
+                    "Orientation": "(VTS)",
+                    "Damage": "",
+                    "Frames": "20",
+                    "On Block": "",
+                    "On Hit": "",
+                    "CH": ""
+                },
+                {
+                    "Command": "VTS 1+2",
+                    "Orientation": "h(Tackle)",
+                    "Damage": "12",
+                    "Frames": "24?",
+                    "On Block": "",
+                    "On Hit": "Throw(KND)",
+                    "CH": ""
+                },
+                {
+                    "Command": "VTS 1+2 (Second part)",
+                    "Orientation": "m(Tackle)",
+                    "Damage": "12",
+                    "Frames": "30?",
+                    "On Block": "",
+                    "On Hit": "Throw(KND)",
+                    "CH": ""
+                },
+                {
+                    "Command": "VTS 1+2 (While landing)",
+                    "Orientation": "Sm",
+                    "Damage": "13",
+                    "Frames": "50",
+                    "On Block": "-22",
+                    "On Hit": "-3? OC",
+                    "CH": "-3? OC"
+                },
+                {
+                    "Command": "VTS u or d",
+                    "Orientation": "(Special)",
+                    "Damage": "",
+                    "Frames": "50",
+                    "On Block": "",
+                    "On Hit": "",
+                    "CH": ""
+                },
+                {
+                    "Command": "VTS 1+3",
+                    "Orientation": "h(Throw)",
+                    "Damage": "35",
+                    "Frames": "12",
+                    "On Block": "",
+                    "On Hit": "Throw(KND)",
+                    "CH": ""
+                },
+                {
+                    "Command": "VTS 2+4",
+                    "Orientation": "h(Throw)",
+                    "Damage": "35",
+                    "Frames": "12",
+                    "On Block": "",
+                    "On Hit": "Throw(KND)",
+                    "CH": ""
+                },
+                {
+                    "Command": "VTS f+1",
+                    "Orientation": "m",
+                    "Damage": "21",
+                    "Frames": "13?",
+                    "On Block": "-3",
+                    "On Hit": "3",
+                    "CH": "3"
+                },
+                {
+                    "Command": "VTS f+1, 2",
+                    "Orientation": "m, m",
+                    "Damage": "21,27",
+                    "Frames": "13?",
+                    "On Block": "-12,13? OC",
+                    "On Hit": "+4 OC",
+                    "CH": "KND",
+					"Notes": "bound!"
+                },
+                {
+                    "Command": "VTS f+2",
+                    "Orientation": "m",
+                    "Damage": "29",
+                    "Frames": "17(23~)",
+                    "On Block": "-4",
+                    "On Hit": "KFUD",
+                    "CH": "KND"
+                },
+                {
+                    "Command": "VTS d+1+2",
+                    "Orientation": "lm",
+                    "Damage": "27,27",
+                    "Frames": "17,(23~)",
+                    "On Block": "-39",
+                    "On Hit": "KND",
+                    "CH": "KND"
+                },
+                {
+                    "Command": "VTS d+1+2 (Second hit miss)",
+                    "Orientation": "l",
+                    "Damage": "27",
+                    "Frames": "17(23~)",
+                    "On Block": "-39",
+                    "On Hit": "KND",
+                    "CH": "KND"
+                },
+                {
+                    "Command": "VTS d+1+2 (Second hit only)",
+                    "Orientation": "m",
+                    "Damage": "27",
+                    "Frames": "35(41~)",
+                    "On Block": "-16",
+                    "On Hit": "5",
+                    "CH": "5"
+                },
+                {
+                    "Command": "VTS 1",
+                    "Orientation": "m",
+                    "Damage": "18",
+                    "Frames": "11(17~)",
+                    "On Block": "-7",
+                    "On Hit": "3",
+                    "CH": "3"
+                },
+                {
+                    "Command": "VTS 1, 3+4",
+                    "Orientation": "m, (VTS)",
+                    "Damage": "18",
+                    "Frames": "11(17~)",
+                    "On Block": "-7",
+                    "On Hit": "3",
+                    "CH": "3"
+                },
+                {
+                    "Command": "VTS 1, 2",
+                    "Orientation": "m, h",
+                    "Damage": "18,24",
+                    "Frames": "11(17~)",
+                    "On Block": "-7",
+                    "On Hit": "KND",
+                    "CH": "CS"
+                },
+                {
+                    "Command": "VTS 2",
+                    "Orientation": "m",
+                    "Damage": "29",
+                    "Frames": "19(25~)",
+                    "On Block": "-8",
+                    "On Hit": "KND",
+                    "CH": "CS"
+                },
+                {
+                    "Command": "VTS 3",
+                    "Orientation": "m",
+                    "Damage": "27",
+                    "Frames": "18~19",
+                    "On Block": "-13~-12",
+                    "On Hit": "JG",
+                    "CH": "JG"
+                },
+                {
+                    "Command": "VTS 4",
+                    "Orientation": "m",
+                    "Damage": "28",
+                    "Frames": "13(19~)",
+                    "On Block": "-7",
+                    "On Hit": "KND",
+                    "CH": "CS"
+                }
+            ]
+        }
+    ]
+}

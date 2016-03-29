@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Tekken Chicken // TTT2 Frame Data</title>
+	<link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css">
+	<link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,700,300|Roboto:400,400italic,700' rel='stylesheet' type='text/css'>
+    <link type="text/css" rel="stylesheet" href="style.css"/>
+    <link type="text/css" rel="stylesheet" href="responsive.css"/>
+</head>
+<body>
+<div class="container">
+<div class="logo"><img src="img/logo.png"></div>
+<div id="navicon">Select A Character</div>
+<nav class="menu">
+	<ul>
+        <li><a href="#Alex" data-name="Alex" class="show">Alex</a></li>
+        <li><a href="#Alisa" data-name="Alisa" class="show">Alisa</a></li>
+        <li><a href="#Angel" data-name="Angel" class="show">Angel</a></li>
+        <li><a href="#ArmorKing" data-name="Armor King" class="show">Armor King</a></li>
+        <li><a href="#Asuka" data-name="Asuka" class="show">Asuka</a></li>
+        <li><a href="#Baek" data-name="Baek" class="show">Baek</a></li>
+        <li><a href="#Bob" data-name="Bob" class="show">Bob</a></li>
+        <li><a href="#Christie" data-name="Christie" class="show">Christie</a></li>
+        <li><a href="#Craig" data-name="Craig Marduk" class="show">Craig Marduk</a></li>
+        <li><a href="#DevilJin" data-name="Devil Jin" class="show">Devil Jin</a></li>
+        <li><a href="#DoctorB" data-name="DoctorB" class="show">Doctor Bosconovitch</a></li>
+        <li><a href="#Feng" data-name="Feng Wei" class="show">Feng Wei</a></li>
+        <li><a href="#Ganryu" data-name="Ganryu" class="show">Ganryu</a></li>
+        <li><a href="#Heihachi" data-name="Heihachi Mishima" class="show">Heihachi Mishima</a></li>
+        <li><a href="#Hwoarang" data-name="Hwoarang" class="show">Hwoarang</a></li>
+        <li><a href="#Jack-6" data-name="Jack-6" class="show">Jack-6</a></li>
+        <li><a href="#Jaycee" data-name="Jaycee" class="show">Jaycee</a></li>
+        <li><a href="#Jin" data-name="Jin" class="show">Jin</a></li>
+        <li><a href="#Jinpachi" data-name="Jinpachi Mishima" class="show">Jinpachi</a></li>
+        <li><a href="#Kazuya" data-name="Kazuya Mishima" class="show">Kazuya Mishima</a></li>
+        <li><a href="#King" data-name="King" class="show">King</a></li>
+        <li><a href="#Kuma" data-name="Kuma" class="show">Kuma</a></li>
+        <li><a href="#Kunimitsu" data-name="Kunimitsu" class="show">Kunimitsu</a></li>
+        <li><a href="#BuffLars" data-name="Lars Alexanderson" class="show">Lars Alexanderson</a></li>
+        <li><a href="#Lee" data-name="Lee Chaolan" class="show">Lee Chaolan</a></li>
+        <li><a href="#Lei" data-name="Lei Wulong" class="show">Lei Wulong</a></li>
+        <li><a href="#Lili" data-name="Lili Rochefort" class="show">Lili Rochefort</a></li>
+		<li><a href="#Leo" data-name="Leo Klieson" class="show">Leo Klieson</a></li>
+        <li><a href="#Ling" data-name="Ling Xiaoyu" class="show">Ling Xiaoyu</a></li>
+        <li><a href="#Marshall" data-name="Marshall Law" class="show">Marshall Law</a></li>
+        <li><a href="#Michelle" data-name="Michelle Chang" class="show">Michelle Chang</a></li>
+        <li><a href="#Miharu" data-name="Miharu" class="show">Miharu</a></li>
+        <li><a href="#Nina" data-name="Nina Williams" class="show">Nina Williams</a></li>
+        <li><a href="#Paul" data-name="Paul Phoenix" class="show">Paul Phoenix</a></li>
+        <li><a href="#P-Jack" data-name="P-Jack" class="show">P-Jack</a></li>
+        <li><a href="#Raven" data-name="Raven" class="show">Raven</a></li>
+        <li><a href="#Roger" data-name="Roger" class="show">Roger</a></li>
+        <li><a href="#Sebastion" data-name="Sebastion" class="show">Sebastion</a></li>
+        <li><a href="#SlimBob" data-name="Slim Bob" class="show">Slim Bob</a></li>
+        <li><a href="#Steve" data-name="Steve Fox" class="show">Steve Fox</a></li>
+        <li><a href="#TrueOgre" data-name="True Ogre" class="show">True Ogre</a></li>
+        <li><a href="#Unknown" data-name="Unknown" class="show">Unknown</a></li>
+        <li><a href="#Violet" data-name="Violet" class="show">Violet</a></li>
+        <li><a href="#Wang" data-name="Wang Jinrei" class="show">Wang Jinrei</a></li>
+        <li><a href="#Yoshimitsu" data-name="Yoshimitsu" class="show">Yoshimitsu</a></li>
+        <li><a href="#Zafina" data-name="Zafina" class="show">Zafina</a></li>
+    </ul>
+</nav>
+    <div class="table-view">
+        <table id="framedata" class="data-table">
+            <thead>
+                <tr class="toggle">
+                    <th>Command</th>
+                    <th>Orientation</th>
+                    <th>Damage</th>
+                    <th>Frames</th>
+                    <th>Block</th>
+                    <th>Hit</th>
+                    <th>CH</th>
+                    <th>Notes</th>
+                </tr>
+                <tr>
+                    <th>Search Command</th>
+                    <th>Search Orientation</th>
+                    <th>Search Damage</th>
+                    <th>Search Frames</th>
+                    <th>Search Block</th>
+                    <th>Search Hit</th>
+                    <th>Search CH</th>
+                    <th class="last">Search Notes</th>
+                </tr>
+            </thead>
+            <tbody class="table-view-body">
+
+            </tbody>
+        </table>
+</div>
+        <footer id="content">
+		<div class="welcome">
+			<h1>Welcome to Tekken Chicken!</h1>
+			<h2>Currently in early development, our goal is to provide the Tekken community with a quick and dynamic way to navigate frame data.</h2>
+			<div class="rbnorway">Frame Data provided by <a href="http://rbnorway.org/ttt2-frame-data/" target="_blank">RBNORWAY</a></div>
+			<!-- <p class="step">Select a character to view their frame data.</p>
+			<p class="step">Filter your frame data globally or search an individual column.</p>
+			<p class="step">Use the tools at the bottom to clear the table or return to the top.</p> -->
+		</div>
+		<div id="disqus_thread"></div>
+			<script type="text/javascript">
+				/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+				var disqus_shortname = 'tekkenchicken'; // required: replace example with your forum shortname
+
+				/* * * DON'T EDIT BELOW THIS LINE * * */
+				(function() {
+					var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+					dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+					(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+				})();
+			</script>
+		</footer>
+		<div class="clearsearch"> </div>
+        <div class="teaser">
+            <p>Congratulations! You found an Egg. Imagine a database where all moves have a GIF like this!</p>
+            <img src="http://i.imgur.com/mtfuGad.gif">
+        </div>
+		<div class="tools">
+		<div class="cleartable"> </div>
+		<span id="top"> </span>
+		<div id="foobar">
+		<div id="slider"></div>
+		</div>
+		</div>
+
+    </div>
+    
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js" type="text/javascript"></script>
+	  <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+    <script type="text/javascript" charset="utf-8" src="vendor/js/pace.min.js"></script>
+    <script type="text/javascript" charset="utf-8" src="vendor/js/datatables/media/js/jquery.dataTables.js"></script>
+    <script type="text/javascript" charset="utf-8" src="vendor/js/datatables/extras/jquery.dataTables.columnFilter.js"></script>
+    <script type="text/javascript" src="refactored.js"></script>
+
+
+<!-- <script type="text/javascript" src="Tekken-Chicken.js"></script> -->
+  <script>
+  $(function() {
+    var aFontsSizeArray = new Array('10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21', '22');
+    $('#slider').slider({
+		value: 5,
+        min: 1,
+        max: 13,
+        step: 1,
+        slide: function(event, ui) {
+            var sFontSizeArray = aFontsSizeArray[ui.value];
+            $('td').css('font-size', sFontSizeArray + 'px' );
+        }
+    });
+});
+</script>
+</body>
+</html>
